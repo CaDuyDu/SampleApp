@@ -29,6 +29,17 @@ vi:
       Contact_the_at_the: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
       contact_page: "trang liên hệ"
   users:
+<<<<<<< d626f073112170e7bafe66ad81c4abd77562ceb4
     new: 
       Sign_up: "đăng ký"
       This_will_be: "Đây là một trang đăng ký cho người dùng mới"
+=======
+    new:
+      sign_up: "Dang ky"
+  sessions:
+    new:
+      log_in: "Dang nhap"
+  concerns:
+      sessions_controller:
+        infor: "Kết hợp email / mật khẩu không hợp lệ"
+>>>>>>> Advanced login
