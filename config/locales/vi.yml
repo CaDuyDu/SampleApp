@@ -1,0 +1,30 @@
+vi:
+  hello: "xin chào"
+  Ruby_on_Rails_Tutorial_Sample_App: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  title: "têu đề"
+  static_pages:
+    home:
+      home: "Trang chủ"
+      tutorial_ruby: "Hướng dẫn về Ruby on Rails"
+      sample_application: "ứng dụng mẫu"
+      sample_app: "ứng dụng mẫu"
+      This_is_for_the: "Đây là trang chủ cho"
+      welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu"
+    about:
+      About: "Giới thiệu"
+      the : "Cac"
+      is_a: "là một"
+      book: "sách"
+      and : "và"
+      screencast_series: "loạt screencast"
+      to_teach_web_development_with: "để dạy phát triển web với"
+      This_is_the_sample_application_for_the_tutorial: "Đây là ứng dụng mẫu cho hướng dẫn"
+    help:
+      Help: "Help"
+      Get_help_on_the_Ruby_on_Rails_Tutorial_at_the : "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      Rails_Tutorial_help_section : "Phần trợ giúp của Rails Tutorial"
+      To_get_help_on_this_sample_app,_see_the: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+    contact:
+      Contact: "Liên Hệ"
+      Contact_the_at_the: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
+      contact_page: "trang liên hệ"
