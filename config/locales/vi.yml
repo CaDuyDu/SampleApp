@@ -5,13 +5,14 @@ vi:
   home: "Trang chủ"
   title: "têu đề"
   Home: "Trang chủ"
-  Help: "Hepl"
-  Users: "Users"
+  Help: "Trợ giúp"
+  Users: "Người dùng"
   Profile: "Thông tin"
   Settings: "Cài đặt"
-  log_in: "Log in"
-  log_out: "Log out"
+  log_in: "Đăng nhập"
+  log_out: "Đăng xuất"
   Delete: "Xóa bỏ"
+  Contact: "Liên Hệ"
   check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
   Account: "Tài khoản"
   account_ative: "Tài khoản được kích hoạt!"
@@ -26,7 +27,7 @@ vi:
       sample_app: "ứng dụng mẫu"
       This_is_for_the: "Đây là trang chủ cho"
       welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu"
-      sign_up_now: "Sign up now!"
+      sign_up_now: "Đăng ký ngay!"
     about:
       About: "Giới thiệu"
       the : "Cac"
@@ -37,7 +38,7 @@ vi:
       to_teach_web_development_with: "để dạy phát triển web với"
       This_is_the_sample_application_for_the_tutorial: "Đây là ứng dụng mẫu cho hướng dẫn"
     help:
-      Help: "Help"
+      Help: "Trợ giúp"
       Get_help_on_the_Ruby_on_Rails_Tutorial_at_the : "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       Rails_Tutorial_help_section : "Phần trợ giúp của Rails Tutorial"
       To_get_help_on_this_sample_app,_see_the: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
@@ -47,19 +48,20 @@ vi:
       contact_page: "trang liên hệ"
   users:
     new:
-      Sign_up: "đăng ký"
+      Sign_up: "Đăng ký"
       This_will_be: "Đây là một trang đăng ký cho người dùng mới"
     edit:
-      Edit_user: "Chinh sua thong tin ca nhan"
-      Update_your_profile: "Cap nhat thong tin ca nhan"
+      Edit_user: "Chỉnh sửa thông tin cá nhân"
+      Update_your_profile: "Cập nhật hồ sơ của bạn"
+      save_change: "Lưu"
     index:
       All_users: "Tất cả người dùng"
   sessions:
     new:
-      Log_in: "Dang nhap"
-      remember: "Hãy nhớ tôi trên máy tính này"
+      Log_in: "Đăng nhập"
+      remember: "Ghi nhớ đăng nhập"
       new_user?: "Người dùng mới?"
-      Sign_up_now: "Sign up now!"
+      sign_up_now: "Đăng ký ngay!"
   error_login: "Kết hợp email / mật khẩu không hợp lệ"
   profile_update: "Cập nhật hồ sơ"
   profile_update_error: "Cập nhật that bai"
