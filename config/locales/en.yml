@@ -58,3 +58,7 @@ en:
       Contact: "Contact"
       Contact_the_at_the: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "contact page"
+  users:
+    new: 
+      Sign_up: "Sign up"
+      This_will_be: "This will be a signup page for new users"
