@@ -1,37 +1,22 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  welcome_to_the_sample_app: "Welcome to the Sample App"
   hello: "Hello world"
   Ruby_on_Rails_Tutorial_Sample_App: "Ruby on Rails Tutorial Sample App"
+  Home: "Home"
+  Help: "Hepl"
+  Users: "Users"
+  Profile: "Profile"
+  Settings: "Settings"
+  log_in: "Log in"
+  log_out: "Log out"
+  Delete: "Delete"
+  sample_app: "Sample App"
+  check_email: "Please check your email to activate your account."
+  Account: "Account"
+  account_ative: "Account activated!"
+  activation_link_error: "Invalid activation link"
+  not_activated_check_your_email: "Account not activated. Check your email for the activation link."
   static_pages:
     home:
       home: "Home"
@@ -40,6 +25,7 @@ en:
       sample_app: "Sample App"
       This_is_for_the: "This is the home page for the"
       welcome_to_the_sample_app: "Welcome to the Sample App"
+      sign_up_now: "Sign up now!"
     about:
       About: "About"
       the : "the"
@@ -59,6 +45,38 @@ en:
       Contact_the_at_the: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "contact page"
   users:
-    new: 
+    new:
       Sign_up: "Sign up"
       This_will_be: "This will be a signup page for new users"
+    edit:
+      Edit_user: "Edit User"
+      Update_your_profile: "Update your profile"
+    index:
+      All_users: "All users"
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
+  sessions:
+    new:
+      Log_in: "Log in"
+      remember: "Remember me on this computer"
+      new_user?: "New user?"
+      Sign_up_now: "Sign up now!"
+  error_login: "Invalid email/password combination"
+  profile_update: "Profile update"
+  profile_update_error: "Update faild"
+  please_login: "Please login."
+  conf_delete: "Are you sure?"
+  user_deleted: "User deleted"
+  delete_failed: "Delete failed"
+  mailers:
+    user_mailer:
+      active: "Account activation"
+  user_with_id: "User with id"
+  not_found: "not found"
+  Create_my_account: "Create my account"
+  error_number: "The form contains"
+  active_account: "Click on the link below to activate your account:"
+  Activate: "Activate"

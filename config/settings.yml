@@ -1,0 +1,13 @@
+users:
+  index:
+    size: 50
+size: 100
+name:
+  maximum: 50
+password:
+  minimum: 6
+email:
+  maximum: 255
+concerns:
+  users_controller:
+    page: 5
