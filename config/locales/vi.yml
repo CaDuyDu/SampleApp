@@ -1,4 +1,5 @@
 vi:
+  welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu"
   hello: "xin chào"
   Ruby_on_Rails_Tutorial_Sample_App: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   title: "têu đề"
@@ -28,3 +29,20 @@ vi:
       Contact: "Liên Hệ"
       Contact_the_at_the: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
       contact_page: "trang liên hệ"
+  users:
+    new:
+      sign_up: "Dang ky"
+    edit:
+      Edit_user: "Chinh sua thong tin ca nhan"
+      Update_your_profile: "Cap nhat thong tin ca nhan"
+    index:
+      All_users: "Tất cả người dùng"
+  sessions:
+    new:
+      Log_in: "Dang nhap"
+  error_login: "Kết hợp email / mật khẩu không hợp lệ"
+  profile_update: "Cập nhật hồ sơ"
+  please_login: "Xin vui lòng đăng nhập"
+  conf_delete: "Bạn chắc chắn muốn xóa?"
+  user_deleted: "Xóa thành công!"
+

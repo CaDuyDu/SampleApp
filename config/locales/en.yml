@@ -1,35 +1,6 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  welcome_to_the_sample_app: "Welcome to the Sample App"
   hello: "Hello world"
   Ruby_on_Rails_Tutorial_Sample_App: "Ruby on Rails Tutorial Sample App"
   static_pages:
@@ -58,3 +29,24 @@ en:
       Contact: "Contact"
       Contact_the_at_the: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "contact page"
+  users:
+    new:
+      sign_up: "Sign up"
+    edit:
+      Edit_user: "Edit User"
+      Update_your_profile: "Update your profile"
+    index:
+      All_users: "All users"
+      first: "« FIRST"
+      last: "LAST »"
+      previous: "‹ PREV"
+      next: "NEXT ›"
+      truncate: "…"
+  sessions:
+    new:
+      Log_in: "Log in"
+  error_login: "Invalid email/password combination"
+  profile_update: "Profile update"
+  please_login: "Please login."
+  conf_delete: "Are you sure?"
+  user_deleted: "User deleted"
