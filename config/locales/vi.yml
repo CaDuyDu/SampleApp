@@ -28,3 +28,15 @@ vi:
       Contact: "Liên Hệ"
       Contact_the_at_the: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
       contact_page: "trang liên hệ"
+  users:
+    new:
+      Sign_up: "đăng ký"
+      This_will_be: "Đây là một trang đăng ký cho người dùng mới"
+      Confirmation: "Xác nhận"
+  shared:
+    error_message:
+      The_form_contains: "Biểu mẫu có chứa"
+  concerns:
+    users_controller:
+      error_1: "nguoi dung voi id"
+      error_2: "Khong tim thay"
