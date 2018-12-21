@@ -31,3 +31,30 @@
 
 en:
   hello: "Hello world"
+  Ruby_on_Rails_Tutorial_Sample_App: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      home: "Home"
+      sample_application: "sample application"
+      tutorial_ruby: "Ruby on Rails Tutorial"
+      sample_app: "Sample App"
+      This_is_for_the: "This is the home page for the"
+      welcome_to_the_sample_app: "Welcome to the Sample App"
+    about:
+      About: "About"
+      the : "the"
+      is_a: "is a"
+      book: "book"
+      and : "and"
+      screencast_series : "screencast series"
+      to_teach_web_development_with: "to teach web development with"
+      This_is_the_sample_application_for_the_tutorial: "This is the sample application for the tutorial"
+    help:
+      Help: "Help"
+      Get_help_on_the_Ruby_on_Rails_Tutorial_at_the : "Get help on the Ruby on Rails Tutorial at the"
+      Rails_Tutorial_help_section : "Rails Tutorial help section"
+      To_get_help_on_this_sample_app,_see_the: "To get help on this sample app, see the"
+    contact:
+      Contact: "Contact"
+      Contact_the_at_the: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
