@@ -23,10 +23,11 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get help" do
-    get help_path
+    get root_path
     assert_response :success
-    assert_select "title", "Help | #{@base_title}"
+    assert_select "title", "Ruby on Rails Tutorial Sample App"
   end
+
 
   test "should get about" do
     get about_path
