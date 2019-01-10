@@ -11,6 +11,7 @@ en:
   log_in: "Log in"
   log_out: "Log out"
   Delete: "Delete"
+  Contact: "Contact"
   sample_app: "Sample App"
   check_email: "Please check your email to activate your account."
   Account: "Account"
@@ -50,6 +51,7 @@ en:
       This_will_be: "This will be a signup page for new users"
     edit:
       Edit_user: "Edit User"
+      save_change: "Save change"
       Update_your_profile: "Update your profile"
     index:
       All_users: "All users"
@@ -63,7 +65,7 @@ en:
       Log_in: "Log in"
       remember: "Remember me on this computer"
       new_user?: "New user?"
-      Sign_up_now: "Sign up now!"
+      sign_up_now: "Sign up now!"
   error_login: "Invalid email/password combination"
   profile_update: "Profile update"
   profile_update_error: "Update faild"
