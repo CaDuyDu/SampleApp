@@ -1,0 +1,3 @@
+<%= @user.name %>,
+<p> <%= t(" welcome_to_the_sample_app") %> <%= t("active_account") %></p>
+<%= edit_account_activation_url(@user.activation_token, email: @user.email) %>

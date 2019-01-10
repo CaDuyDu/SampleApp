@@ -1,7 +1,23 @@
 vi:
+  welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu"
   hello: "xin chào"
   Ruby_on_Rails_Tutorial_Sample_App: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
+  home: "Trang chủ"
   title: "têu đề"
+  Home: "Trang chủ"
+  Help: "Hepl"
+  Users: "Users"
+  Profile: "Thông tin"
+  Settings: "Cài đặt"
+  log_in: "Log in"
+  log_out: "Log out"
+  Delete: "Xóa bỏ"
+  check_email: "Hãy kiểm tra email của bạn để kích hoạt tài khoản của bạn."
+  Account: "Tài khoản"
+  account_ative: "Tài khoản được kích hoạt!"
+  activation_link_error: "Liên kết kích hoạt không hợp lệ"
+  not_activated_check_your_email: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt"
+  sign_up_now: "Đăng ký ngay!"
   static_pages:
     home:
       home: "Trang chủ"
@@ -10,6 +26,7 @@ vi:
       sample_app: "ứng dụng mẫu"
       This_is_for_the: "Đây là trang chủ cho"
       welcome_to_the_sample_app: "Chào mừng bạn đến với Ứng dụng mẫu"
+      sign_up_now: "Sign up now!"
     about:
       About: "Giới thiệu"
       the : "Cac"
@@ -29,6 +46,33 @@ vi:
       Contact_the_at_the: "Liên hệ với Hướng dẫn về Ruby on Rails về ứng dụng mẫu tại"
       contact_page: "trang liên hệ"
   users:
-    new: 
+    new:
       Sign_up: "đăng ký"
       This_will_be: "Đây là một trang đăng ký cho người dùng mới"
+    edit:
+      Edit_user: "Chinh sua thong tin ca nhan"
+      Update_your_profile: "Cap nhat thong tin ca nhan"
+    index:
+      All_users: "Tất cả người dùng"
+  sessions:
+    new:
+      Log_in: "Dang nhap"
+      remember: "Hãy nhớ tôi trên máy tính này"
+      new_user?: "Người dùng mới?"
+      Sign_up_now: "Sign up now!"
+  error_login: "Kết hợp email / mật khẩu không hợp lệ"
+  profile_update: "Cập nhật hồ sơ"
+  profile_update_error: "Cập nhật that bai"
+  please_login: "Xin vui lòng đăng nhập"
+  conf_delete: "Bạn chắc chắn muốn xóa?"
+  user_deleted: "Xóa thành công!"
+  delete_failed: "Xóa that bai"
+  mailers:
+    user_mailer:
+      active: "Kích hoạt tài khoản"
+  user_with_id: "Người dùng có id"
+  not_found: "không tìm thấy"
+  Create_my_account: "Tạo tài khoản của tôi"
+  error_number: "Biểu mẫu có chứa"
+  active_account: "Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+  Activate: "Kích hoạt"
