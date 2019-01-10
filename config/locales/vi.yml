@@ -19,6 +19,8 @@ vi:
   activation_link_error: "Liên kết kích hoạt không hợp lệ"
   not_activated_check_your_email: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt"
   sign_up_now: "Đăng ký ngay!"
+  Forgot_password: "Quên mật khẩu?"
+  submit: "Gửi"
   static_pages:
     home:
       home: "Trang chủ"
@@ -56,12 +58,18 @@ vi:
       save_change: "Lưu"
     index:
       All_users: "Tất cả người dùng"
+      first: "« ĐẦU TIÊN"
+      last: "CUỐI CÙNG »"
+      previous: "‹ TRƯỚC"
+      next: "KẾ TIẾP ›"
+      truncate: "…"
   sessions:
     new:
       Log_in: "Đăng nhập"
       remember: "Ghi nhớ đăng nhập"
       new_user?: "Người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
+      forgot_password: "(Quên mật khẩu?)"
   error_login: "Kết hợp email / mật khẩu không hợp lệ"
   profile_update: "Cập nhật hồ sơ"
   profile_update_error: "Cập nhật that bai"
@@ -72,9 +80,22 @@ vi:
   mailers:
     user_mailer:
       active: "Kích hoạt tài khoản"
+      password_reset: "Đặt lại mật khẩu"
   user_with_id: "Người dùng có id"
   not_found: "không tìm thấy"
   Create_my_account: "Tạo tài khoản của tôi"
   error_number: "Biểu mẫu có chứa"
   active_account: "Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
   Activate: "Kích hoạt"
+  email_sent_with: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+  email_address_not_found: "Không tìm thấy địa chỉ email"
+  password_reset: "Đặt lại mật khẩu"
+  reset_your_password: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+  reset_password: "Đặt lại mật khẩu"
+  this_link: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+  not_request_your_password: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
+  update_password: "Cập nhật mật khẩu"
+  Confirmation: "Xác nhận"
+  can_not_be_empty: "không thể để trống"
+  password_has_been_reset: "Mật khẩu đã được đặt lại"
+  password_reset_has_expired: "Đặt lại mật khẩu đã hết hạn"

@@ -1,4 +1,3 @@
-
 en:
   welcome_to_the_sample_app: "Welcome to the Sample App"
   hello: "Hello world"
@@ -18,6 +17,8 @@ en:
   account_ative: "Account activated!"
   activation_link_error: "Invalid activation link"
   not_activated_check_your_email: "Account not activated. Check your email for the activation link."
+  Forgot_password: "Forgot password"
+  submit: "Submit"
   static_pages:
     home:
       home: "Home"
@@ -66,6 +67,7 @@ en:
       remember: "Remember me on this computer"
       new_user?: "New user?"
       sign_up_now: "Sign up now!"
+      forgot_password: "(forgot password?)"
   error_login: "Invalid email/password combination"
   profile_update: "Profile update"
   profile_update_error: "Update faild"
@@ -76,9 +78,22 @@ en:
   mailers:
     user_mailer:
       active: "Account activation"
+      password_reset: "Password reset"
   user_with_id: "User with id"
   not_found: "not found"
   Create_my_account: "Create my account"
   error_number: "The form contains"
   active_account: "Click on the link below to activate your account:"
   Activate: "Activate"
+  email_sent_with: "Email sent with password reset instructions"
+  email_address_not_found: "Email address not found"
+  password_reset: "Password reset"
+  reset_your_password: "To reset your password click the link below:"
+  reset_password: "Reset password"
+  this_link: "This link will expire in two hours."
+  not_request_your_password: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  update_password: "Update password"
+  Confirmation: "Confirmation"
+  can_not_be_empty: "can't be empty"
+  password_has_been_reset: "Password has been reset"
+  password_reset_has_expired: "Password reset has expired"
