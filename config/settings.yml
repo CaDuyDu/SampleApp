@@ -2,6 +2,7 @@ users:
   index:
     size: 50
 size: 100
+time: 2
 name:
   maximum: 50
 password:
@@ -11,3 +12,4 @@ email:
 concerns:
   users_controller:
     page: 5
+
