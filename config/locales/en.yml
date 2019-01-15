@@ -110,3 +110,5 @@ en:
   should_be_less_than_5MB: "should be less than 5MB"
   micropost_deleted_fail: "Micropost deleted fail!"
   maximum_file_size: "Maximum file size is 5MB. Please choose a smaller file."
+  following: "Following"
+  followers: "Followers"

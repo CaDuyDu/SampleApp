@@ -3,6 +3,8 @@ class Micropost < ApplicationRecord
 
   mount_uploader :picture, PictureUploader
   scope :desc, -> {order(created_at: :desc)}
+  scope :by_user_follow, -> (following_ids, id){where("user_id IN (?) OR user_id = ?",
+    following_ids,"#{id}")}
 
   validates :user_id, presence: true
   validates :content, presence: true, length: {maximum: Settings.micropost.maximum}

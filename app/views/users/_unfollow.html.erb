@@ -1,0 +1,5 @@
+<%= form_for(@active_relationships_find_by,
+             html: { method: :delete },
+             remote: true) do |f| %>
+  <%= f.submit "Unfollow", class: "btn" %>
+<% end %>
