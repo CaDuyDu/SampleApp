@@ -1,0 +1,3 @@
+translations:
+  - file: 'app/assets/javascripts/user_micropost.js'
+    only: "*"
