@@ -12,4 +12,11 @@ email:
 concerns:
   users_controller:
     page: 5
-
+micropost:
+  maximum: 140
+avatarpost:
+  size: 50
+posts_controller:
+    page: 10
+sizes:
+  image: 5
