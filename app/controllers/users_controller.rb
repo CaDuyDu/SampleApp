@@ -26,6 +26,12 @@ class UsersController < ApplicationController
 
   def show
     @microposts = @user.microposts.desc.page(params[:page]).per Settings.posts_controller.page
+
+    if current_user.following?(@user)
+      @active_relationships_find_by = current_user.active_relationships.find_by followed_id: @user.id
+    else
+      @active_relationships_build = current_user.active_relationships.build
+    end
   end
 
   def edit; end
@@ -46,6 +52,20 @@ class UsersController < ApplicationController
       flash[:danger] = t "delete_failed"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = t "following"
+    @user  = User.find_by id: params[:id]
+    @users = @user.following.page(params[:page])
+    render "show_follow"
+  end
+
+  def followers
+    @title = t "followers"
+    @user  = User.find_by id: params[:id]
+    @users = @user.followers.page(params[:page])
+    render "show_follow"
   end
 
   private

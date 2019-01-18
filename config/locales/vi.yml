@@ -112,3 +112,5 @@ vi:
   should_be_less_than_5MB: "nên dưới 5 MB"
   micropost_deleted_fail: "Xóa thất bại!"
   maximum_file_size: "Kích thước tệp tối đa là 5MB. Vui lòng chọn một tập tin nhỏ hơn."
+  following: "Đã theo dõi"
+  followers: "Đang theo dõi"
